@@ -30,17 +30,6 @@ expenseFilter.forEach(function (expense) {
 });
 console.log(expenseSum);
 
-/*****************************************************************
-Part 3: Net Analysis
-
-Task 5) Calculate the net total (total income - total expenses) and return it.
-       Output 5) 2400
-
-Task 6) Identify and create a new array with transactions (both incomes and expenses) above  or equal to $500.
-       Output 6) [["income", 1000], ["income", 1500], ["expense", 500], ["income", 700]]
-
-******************************************************************/
-
 const netTotal = incomeSum - expenseSum;
 console.log(netTotal);
 
